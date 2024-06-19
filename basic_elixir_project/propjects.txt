@@ -1,0 +1,17 @@
+defmodule ... do ... end 
+    yeni bir module tanımlar
+def ... do ... end 
+    yeni bir fonksiyon tanımlar
+
+iex -S mix 
+    Elixir'in interaktif kabuğunu çalıştırır.
+
+defstruct 
+    bir struct tanımlar. Struct Elixir'de veri yapısını temsil eder ve birbirine bağlı verileri gruplar.
+defstruct tasks: []
+    tasks adında bir struct tanımlar ve tasks adında boş bir alanı vardır.
+%TodoList{}
+    TodoList struct'ının bir örneğini oluşturur.
+
+ExUnit 
+    Elixir'in test çatısını temsil eder.
